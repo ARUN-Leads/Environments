@@ -1,0 +1,38 @@
+Environment
+------------
+To run our project we need infrastructure that is called as Environment of the project.
+
+Machine with OS.
+Web/Application Server
+DB Server etc.,
+
+For our application we need several environments like below:
+
+DEV(devlopers),QA(Tester) and UAT(client) Environments.
+
+In Company,these environments will be created by DevOps team.
+
+We will use these environments to test our application
+
+-> Developers will use DEV environment to perform Dev Integration Testing.
+-> Testers will use QA environment to perform software Testing.
+-> Client/Client side team members will use UAT environment to perform acceptance testing.
+-> Pilot/Staging is called as pre-production (To Check application behaviour with live data).
+-> Production environment is used Deliver the project(Live Env).
+-> If application is deployed to Prod env end users can access the project.
+
+
+Build & Deployement Process:
+------------------------------
+
+1) Take latest code from repo.
+2) Compile source code.
+3) Do code review.
+4) Execute Junits.
+5) Package code as jar/war.
+6) Deploy application to server.
+
+earlier admin people will use 6 steps manually.but nowadays Jenkins tool used.
+
+once Build & Deployment is completed we can access that project in our machine using url of the environment to perform Testing.
+
